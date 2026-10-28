@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hindi Varnamala Island Quest 🦚🥭 | Fun Hindi Learning Game for Kids</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Floating Sunny Background Decorations -->
+  <div class="sky-decor">
+    <div class="cloud c1">☁️</div>
+    <div class="cloud c2">🦜</div>
+    <div class="cloud c3">🪁</div>
+    <div class="cloud c4">🌈</div>
+  </div>
+
+  <div class="app-wrapper">
+    <!-- Top Kid Header -->
+    <header class="top-header">
+      <div class="brand-box">
+        <button id="avatarBtn" class="avatar-btn" title="Change Your Quest Buddy!">🦚</button>
+        <div class="brand-titles">
+          <h1>Hindi Varnamala Quest ✨</h1>
+          <p>Shape Tricks, Dragon Breath & Home Language Bridge!</p>
+        </div>
+      </div>
+
+      <div class="header-controls">
+        <div class="bridge-selector-box">
+          <label for="bridgeLangSelect">🏠 Bridge Script:</label>
+          <select id="bridgeLangSelect" class="bridge-select"></select>
+        </div>
+
+        <div class="stats-bar">
+          <div class="stat-pill" title="Your Star Coins">
+            ⭐ <span id="starCount">0</span>
+          </div>
+          <div class="stat-pill mastery-pill" title="Mastered Hindi Letters">
+            🎓 <span id="masteryCount">0 / 49 Letters</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Navigation Bar -->
+    <nav class="main-nav">
+      <button class="nav-tab active" data-tab="quest">🗺️ Island Quest</button>
+      <button class="nav-tab" data-tab="chart">🎹 Varnamala Soundboard</button>
+      <button class="nav-tab" data-tab="twins">🕵️ Look-Alike Detective</button>
+      <button class="nav-tab" data-tab="arcade">⚡ Monster Arcade</button>
+      <button class="nav-tab" data-tab="stickers">🏆 My Stickers</button>
+    </nav>
+
+    <!-- Dynamic Main Stage -->
+    <main id="mainContent"></main>
+  </div>
+
+  <!-- Modal Container -->
+  <div id="modalRoot" class="hidden"></div>
+
+  <!-- Scripts -->
+  <script src="data.js"></script>
+  <script src="audio.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

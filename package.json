@@ -1,0 +1,18 @@
+{
+  "name": "hindi-varnamala-quest",
+  "version": "1.0.0",
+  "description": "Interactive Hindi Varnamala Island Quest game for 8-year-olds with South Indian script bridge, visual mnemonics, rainbow tracing, and audio phonetics.",
+  "private": true,
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve .",
+    "build": "echo 'Static site ready for Vercel deployment'"
+  },
+  "keywords": [
+    "hindi",
+    "varnamala",
+    "kids-game",
+    "education",
+    "devanagari"
+  ]
+}
