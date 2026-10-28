@@ -5,8 +5,7 @@
   "private": true,
   "scripts": {
     "start": "npx serve .",
-    "dev": "npx serve .",
-    "build": "echo 'Static site ready for Vercel deployment'"
+    "dev": "npx serve ."
   },
   "keywords": [
     "hindi",
